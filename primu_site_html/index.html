@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Practică în Swift</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Practică în Swift</h1>
+  
+  <div class="product-container">
+    <div class="product" id="product1">
+      <h2>Capitolul 1 Limbajul Swift</h2>
+      <img class="rounded-image" src="img/swift.png" alt="Imagine capitolul 1" width="240" height="240">
+      <p>Descrierea Capitolului 1.</p>
+      
+      <div class="details-section">
+        <h3>Mai multe informații</h3>
+        <div class="details-content">
+          <p>Mai multe detalii despre Capitolul 1.</p>
+        </div>
+      </div>
+      
+      <div class="links-section">
+        <h3>Linkuri utile</h3>
+        <div class="links-content">
+          <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="pdf-section">
+        <h3>PDF-uri</h3>
+        <div class="pdf-content">
+          <ul>
+            <li><a href="pdfs/capitol1.pdf" target="_blank">Capitolul 1 PDF</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <a href="#" class="button" onclick="toggleDetails(1)">
+        <span id="caret1" class="caret">&#9658;</span>
+        <span id="buttonText1">Mai multe informații</span>
+      </a>
+    </div>
+    
+    <div class="product" id="product2">
+      <h2>Capitolul 2 Lucrul cu XCode</h2>
+      <img class="rounded-image" src="img/xcode.png" alt="Imagine capitolul 2" width="240" height="240">
+      <p>Descrierea Capitolului 2.</p>
+      
+      <div class="details-section">
+        <h3>Mai multe informații</h3>
+        <div class="details-content">
+          <p>Mai multe detalii despre Capitolul 2.</p>
+        </div>
+      </div>
+      
+      <div class="links-section">
+        <h3>Linkuri utile</h3>
+        <div class="links-content">
+          <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <a href="#" class="button" onclick="toggleDetails(2)">
+        <span id="caret2" class="caret">&#9658;</span>
+        <span id="buttonText2">Mai multe informații</span>
+      </a>
+    </div>
+    
+    <div class="product" id="product3">
+        <h2>Capitolul 3 Lucrul cu interfata (UI)</h2>
+        <img class="rounded-image" src="img/swiftui.png" alt="Imagine capitolul 3" width="240" height="240">
+        <p>Descrierea Capitolului 2.</p>
+        
+        <div class="details-section">
+          <h3>Mai multe informații</h3>
+          <div class="details-content">
+            <p>Mai multe detalii despre Capitolul 2.</p>
+          </div>
+        </div>
+        
+        <div class="links-section">
+          <h3>Linkuri utile</h3>
+          <div class="links-content">
+            <ul>
+              <li><a href="#">Link 1</a></li>
+              <li><a href="#">Link 2</a></li>
+              <li><a href="#">Link 3</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <a href="#" class="button" onclick="toggleDetails(3)">
+          <span id="caret3" class="caret">&#9658;</span>
+          <span id="buttonText3">Mai multe informații</span>
+        </a>
+    </div>
+    
+    <div class="product" id="product4">
+        <h2>Capitolul 4 Cum utilizez un json</h2>
+        <img class="rounded-image" src="img/json.png" alt="Imagine capitolul 4" width="240" height="240">
+        <p>Descrierea Capitolului 4.</p>
+        
+        <div class="details-section">
+          <h3>Mai multe informații</h3>
+          <div class="details-content">
+            <p>Mai multe detalii despre Capitolul 2.</p>
+          </div>
+        </div>
+        
+        <div class="links-section">
+          <h3>Linkuri utile</h3>
+          <div class="links-content">
+            <ul>
+              <li><a href="#">Link 1</a></li>
+              <li><a href="#">Link 2</a></li>
+              <li><a href="#">Link 3</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <a href="#" class="button" onclick="toggleDetails(4)">
+          <span id="caret4" class="caret">&#9658;</span>
+          <span id="buttonText4">Mai multe informații</span>
+        </a>
+    </div>
+    
+    <div class="product" id="product5">
+        <h2>Capitolul 5 Cum obtin un raspuns json de la o cerere HTTP la un REST API</h2>
+        <img class="rounded-image" src="img/restapi.png" alt="Imagine capitolul 5" width="240" height="240">
+        <p>Descrierea Capitolului 5.</p>
+        
+        <div class="details-section">
+          <h3>Mai multe informații</h3>
+          <div class="details-content">
+            <p>Mai multe detalii despre Capitolul 2.</p>
+          </div>
+        </div>
+        
+        <div class="links-section">
+          <h3>Linkuri utile</h3>
+          <div class="links-content">
+            <ul>
+              <li><a href="#">Link 1</a></li>
+              <li><a href="#">Link 2</a></li>
+              <li><a href="#">Link 3</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <a href="#" class="button" onclick="toggleDetails(5, event)">
+          <span id="caret5" class="caret">&#9658;</span>
+          <span id="buttonText5">Mai multe informații</span>
+        </a>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

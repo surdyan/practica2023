@@ -1,0 +1,82 @@
+/* styles.css */
+
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+}
+
+.product {
+  width: 33.33%;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+.rounded-image {
+  border-radius: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #333;
+}
+
+.caret {
+  margin-right: 5px;
+  transition: transform 0.3s;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+.details-section,
+.links-section,
+.pdf-section {
+  display: none;
+  margin-top: 20px;
+}
+
+.product.show-details .details-section,
+.product.show-details .links-section,
+.product.show-details .pdf-section {
+  display: block;
+}
+
+.details-content,
+.links-content,
+.pdf-content {
+  background-color: black;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.details-content p,
+.links-content ul,
+.pdf-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.links-content ul li,
+.pdf-content ul li {
+  margin-bottom: 5px;
+}
