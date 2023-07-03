@@ -1,0 +1,15 @@
+{
+  "introducere": "Introducere",
+  "cap1": "Capitolul 1 Limbajul Swift", 
+  "cap2": "Lucrul cu XCode",
+  "cap3": "Lucrul cu interfata (UI)",
+  "cap4": "Cum utilizez un json",
+  "cap5": "Cum obtin un raspuns json de la o cerere HTTP la un REST API",
+  "ore": "Orele",
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "https://www.instagram.com/surdyanu/",
+    "newWindow": true
+  }
+}

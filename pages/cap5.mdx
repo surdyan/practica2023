@@ -1,0 +1,15 @@
+# Cum obtin un raspuns json de la o cerere HTTP la un REST API
+
+Pentru a obține un răspuns JSON de la o cerere HTTP către un REST API, urmați următorii pași generali:
+
+1. **Stabiliți URL-ul endpointului API:** Identificați URL-ul către endpointul API de la care doriți să obțineți datele. Acesta ar trebui să fie furnizat de către proprietarul API-ului sau poate fi specificat în documentația API-ului.
+
+2. **Configurați cererea HTTP:** Utilizați o bibliotecă sau un pachet specific limbajului de programare pe care îl utilizați pentru a configura o cerere HTTP GET către endpointul API-ului. Asigurați-vă că setați corect capetele (headers) necesare, cum ar fi tipul de conținut acceptat (Accept header) pentru a specifica că doriți să primiți un răspuns JSON.
+
+3. **Trimiteți cererea:** Trimiteți cererea HTTP către endpointul API folosind metoda corespunzătoare din biblioteca sau pachetul utilizat. Aceasta poate fi, de obicei, o funcție de tipul `GET` care acceptă URL-ul și alte opțiuni de configurare.
+
+4. **Gestionați răspunsul:** Atunci când primiți răspunsul de la cerere, verificați codul de stare HTTP pentru a vă asigura că cererea s-a încheiat cu succes (codul de stare 200). Dacă răspunsul este în regulă, puteți accesa conținutul răspunsului, care ar trebui să fie în format JSON.
+
+5. **Parsați răspunsul JSON:** Utilizați un decoder JSON specific limbajului de programare pentru a parsa răspunsul JSON într-o structură de date utilizabilă. Acest proces de parsare poate implica transformarea șirului JSON în obiecte sau dicționare în limbaje precum Python, sau în structuri de date specifice limbajului dvs.
+
+6. **Utilizați datele:** După parsarea cu succes a răspunsului JSON, puteți accesa și utiliza datele în aplicația dvs. conform necesităților dvs. Puteți atribui valorile la variabile, le puteți afișa în interfața utilizatorului sau puteți le procesa în alte moduri specifice aplicației dvs.
